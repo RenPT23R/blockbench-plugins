@@ -714,9 +714,9 @@
 //?? ╰─────────────────────────────────────────────────────────────────────────────────╯
 
 (() => {
-	if (!compareVersions('5.0.0', Blockbench.version)) {
+	if (!compareVersions('1000.0.0', Blockbench.version)) {
 		const message = `
-# Animated Java does not work in Blockbench 5
+# Animated Java does not work in Blockbench 1000
 
 You will need to install and use Blockbench v4.12.6 to use Animated Java until it is updated to support 5.
 
